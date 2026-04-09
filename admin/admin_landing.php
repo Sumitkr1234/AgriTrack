@@ -12,7 +12,7 @@ if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in']) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin - AgriTrack</title>
+    <title>Admin - CropMaster</title>
     <link rel="icon" type="image/png" href="../images/agritrack_logo.png?v=3">
     <link rel="stylesheet" href="../css/landing.styles.css">
 </head>
@@ -54,7 +54,7 @@ if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in']) {
                         
                         <div class="hero-heading">
                             <h1>Admin Dashboard. <span class="gradient-text">Manage Everything.</span></h1>
-                            <p>Monitor all farmers, track inventory across the platform, generate comprehensive reports, and manage the AgriTrack system with powerful admin tools.</p>
+                            <p>Monitor all farmers, track inventory across the platform, generate comprehensive reports, and manage the CropMaster system with powerful admin tools.</p>
                         </div>
 
                         <div class="hero-buttons">
@@ -68,7 +68,7 @@ if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in']) {
 
                     <div class="hero-image animate-on-scroll" data-animate="right">
                         <div class="image-container">
-                            <img src="../images/landing.jpg" alt="Admin dashboard for AgriTrack">
+                            <img src="../images/landing.jpg" alt="Admin dashboard for CropMaster">
                             <div class="image-overlay"></div>
                         </div>
 
@@ -90,7 +90,7 @@ if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in']) {
         <section id="features" class="features">
             <div class="container">
                 <div class="section-header animate-on-scroll" data-animate="up">
-                    <h2>Complete admin control for AgriTrack</h2>
+                    <h2>Complete admin control for CropMaster</h2>
                     <p>Manage all farmers, monitor inventory, generate reports, and maintain system-wide oversight with comprehensive admin tools.</p>
                 </div>
 
@@ -151,7 +151,7 @@ if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in']) {
             <div class="container">
                 <div class="section-header animate-on-scroll" data-animate="up">
                     <h2>Powerful admin tools</h2>
-                    <p>Complete control and visibility over the entire AgriTrack platform with advanced administrative features.</p>
+                    <p>Complete control and visibility over the entire CropMaster platform with advanced administrative features.</p>
                 </div>
 
                 <div class="stats-grid animate-on-scroll" data-animate="up">
@@ -181,7 +181,7 @@ if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in']) {
                 </div>
 
                 <div class="stats-footer animate-on-scroll" data-animate="up">
-                    <span>Manage the entire AgriTrack platform with confidence</span>
+                    <span>Manage the entire CropMaster platform with confidence</span>
                 </div>
             </div>
         </section>

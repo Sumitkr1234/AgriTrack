@@ -49,7 +49,7 @@ if ($pdo) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farmers - AgriTrack Admin</title>
+    <title>Farmers - CropMaster Admin</title>
     <link rel="icon" type="image/png" href="../images/agritrack_logo.png?v=3">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -58,9 +58,9 @@ if ($pdo) {
         .sidebar { width: 260px; background-color: white; border-right: 1px solid #e2e8f0; display: flex; flex-direction: column; position: fixed; height: 100vh; overflow-y: auto; z-index: 100; }
         .main-content { flex: 1; margin-left: 260px; min-height: 100vh; }
     </style>
-    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/AgriTrack') !== false) ? '/AgriTrack/css/home.css' : '../css/home.css'; ?>?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/AgriTrack') !== false) ? '/AgriTrack/css/inventory.css' : '../css/inventory.css'; ?>?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/AgriTrack') !== false) ? '/AgriTrack/css/admin.css' : '../css/admin.css'; ?>?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/CropMaster') !== false) ? '/CropMaster/css/home.css' : '../css/home.css'; ?>?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/CropMaster') !== false) ? '/CropMaster/css/inventory.css' : '../css/inventory.css'; ?>?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/CropMaster') !== false) ? '/CropMaster/css/admin.css' : '../css/admin.css'; ?>?v=<?php echo time(); ?>">
 </head>
 <body>
     <div class="dashboard-container">

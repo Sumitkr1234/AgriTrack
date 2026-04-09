@@ -1,0 +1,11 @@
+temperature,humidity,rainfall,crop
+30,70,200,Rice
+25,60,100,Wheat
+28,65,150,Maize
+32,80,250,Sugarcane
+20,50,80,Barley
+27,68,120,Millet
+29,75,180,Cotton
+31,85,220,Rice
+24,55,90,Wheat
+26,60,110,Maize

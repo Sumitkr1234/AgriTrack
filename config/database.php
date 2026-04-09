@@ -1,6 +1,6 @@
 <?php
 /**
- * Database Configuration for AgriTrack
+ * Database Configuration for CropMaster
  * Handles connection to MySQL database
  */
 
@@ -8,9 +8,9 @@
 $db_config = [
     'host' => 'localhost',
     'port' => '3306',
-    'dbname' => 'agritrack',
+    'dbname' => 'cropmaster',
     'username' => 'root',
-    'password' => '', // Default XAMPP MySQL password is empty
+    'password' => '1234', // Default XAMPP MySQL password is empty
     'charset' => 'utf8mb4'
 ];
 

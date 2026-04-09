@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_profile']) && 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings - AgriTrack</title>
+    <title>Settings - CropMaster</title>
     <link rel="icon" type="image/png" href="../images/agritrack_logo.png?v=3">
     <style>
         /* Critical inline styles */
@@ -116,8 +116,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_profile']) && 
         .sidebar { width: 260px; background-color: white; border-right: 1px solid #e2e8f0; display: flex; flex-direction: column; position: fixed; height: 100vh; overflow-y: auto; z-index: 100; }
         .main-content { flex: 1; margin-left: 260px; min-height: 100vh; background: radial-gradient(1200px 400px at -10% -10%, rgba(34, 197, 94, 0.06) 0%, transparent 60%), radial-gradient(800px 300px at 110% 20%, rgba(16, 185, 129, 0.08) 0%, transparent 60%), linear-gradient(to bottom, #ffffff, #f0fdf4); }
     </style>
-    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/AgriTrack') !== false) ? '/AgriTrack/css/home.css' : '../css/home.css'; ?>?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/AgriTrack') !== false) ? '/AgriTrack/css/settings.css' : '../css/settings.css'; ?>?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/CropMaster') !== false) ? '/CropMaster/css/home.css' : '../css/home.css'; ?>?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/CropMaster') !== false) ? '/CropMaster/css/settings.css' : '../css/settings.css'; ?>?v=<?php echo time(); ?>">
 </head>
 <body>
     <div class="dashboard-container">

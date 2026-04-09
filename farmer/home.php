@@ -18,7 +18,7 @@ if (!isset($_SESSION['logged_in']) || !$_SESSION['logged_in']) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - AgriTrack</title>
+    <title>Home - CropMaster</title>
     <link rel="icon" type="image/png" href="../images/agritrack_logo.png?v=3">
     <style>
         /* Critical inline styles to ensure layout works immediately */
@@ -32,7 +32,7 @@ if (!isset($_SESSION['logged_in']) || !$_SESSION['logged_in']) {
         .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
         .dashboard-card { background-color: white; border: 1px solid #e2e8f0; border-radius: 0.75rem; padding: 1.5rem; }
     </style>
-    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/AgriTrack') !== false) ? '/AgriTrack/css/home.css' : '../css/home.css'; ?>?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="<?php echo (strpos($_SERVER['REQUEST_URI'], '/CropMaster') !== false) ? '/CropMaster/css/home.css' : '../css/home.css'; ?>?v=<?php echo time(); ?>">
 </head>
 <body>
     <div class="dashboard-container">

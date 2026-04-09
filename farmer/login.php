@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Login - AgriTrack</title>
+	<title>Login - CropMaster</title>
 	<link rel="icon" type="image/png" href="../images/agritrack_logo.png?v=3">
 	<link rel="stylesheet" href="../css/landing.styles.css">
 	<link rel="stylesheet" href="../css/login.css">
@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 				<div class="hero-content">
 					<div class="hero-text">
 						<div class="hero-heading">
-							<h1>Sign in to your AgriTrack account</h1>
+							<h1>Sign in to your CropMaster account</h1>
 							<p>Enter your credentials to access your inventory dashboard.</p>
 						</div>
 					</div>
